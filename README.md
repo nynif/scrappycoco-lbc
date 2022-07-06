@@ -1,5 +1,9 @@
-#Scrapi COCO
+# Scrapping immobilier sur le bon coin
+
 Ce programme est un programme de scraping de biens immobiliers sur le site leboncoin.fr
+
+Dernier test le : 6/07/2022
+Status: OK
 
 ## Comment lancer le projet
 1ere étape : Cloner le projet
@@ -14,12 +18,12 @@ Ce programme est un programme de scraping de biens immobiliers sur le site lebon
     pip -q install pandas
 
 3ᵉ étape : Ouvrir et remplir le fichier config.txt avec les variables suivantes
-- ####MY_URL:
+- MY_URL:
 Pour obtenir votre url de recherche rendez-vous sur le site leboncoin.fr et faites une recherche dans la catégorie IMMOBILIER/ VENTE IMMOBILIERES. Vous pouvez ajouter utiliser les filtres proposés par le site. Ensuite cliquer sur Rechercher. Copier alors l'url qui sera du type
 
     https://www.leboncoin.fr/recherche?category=9&locations=69009__45.77616427381966_4.797311205072112_7921&owner_type=private&real_estate_type=2&immo_sell_type=old&price=10000-max
 
-- ####NAME 
+- NAME 
 Choissisez le nom que vous voulez donner à cette recherche
 
 
